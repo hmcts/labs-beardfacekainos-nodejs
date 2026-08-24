@@ -1,4 +1,4 @@
-# labs-BeardfaceKainos-nodejs
+# labs-beardfacekainos-nodejs
 
 Deploying a Node.js application
 
