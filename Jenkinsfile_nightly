@@ -9,7 +9,7 @@ pipelineTriggers([cron('H 05 * * *')])
 
 def type = "nodejs"
 def product = "labs"
-def component = "BeardfaceKainos-nodejs"
+def component = "beardfacekainos-nodejs"
 
 withNightlyPipeline(type, product, component) {
   afterSuccess('build') {
