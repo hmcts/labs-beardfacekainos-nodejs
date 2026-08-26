@@ -1,8 +1,8 @@
 nodejs:
   applicationPort: 8080
   aadIdentityName: labs
-  ingressHost: labs-BeardfaceKainos-nodejs.{{ .Values.global.environment }}.platform.hmcts.net
-  image: 'hmctspublic.azurecr.io/labs/BeardfaceKainos-nodejs:latest'
+  ingressHost: labs-beardfacekainos-nodejs.{{ .Values.global.environment }}.platform.hmcts.net
+  image: 'hmctspublic.azurecr.io/labs/beardfacekainos-nodejs:latest'
   #  Uncomment once the vault containing the app insights key has been set up
   #  keyVaults:
   #    labs:
